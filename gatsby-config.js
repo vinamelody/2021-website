@@ -5,9 +5,9 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `iOS Conf SG`,
+    description: `iOS Conference Singapore`,
+    author: `@vinamelody`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -19,7 +19,7 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.white,
-        theme_color: fullConfig.theme.colors.teal["400"],
+        theme_color: fullConfig.theme.colors.orange["400"],
         display: `minimal-ui`,
         icon: `src/images/tailwind-icon.png`,
       },
@@ -37,5 +37,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-fontawesome-css`
   ],
 };
