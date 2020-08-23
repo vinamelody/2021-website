@@ -50,8 +50,8 @@ function Header() {
         >
           {[
             {
-              route: `/schedule`,
-              title: `Call for Proposal!`,
+              route: `#`,
+              title: `Tickets coming soon!`,
             },
           ].map((link) => (
             <Link
