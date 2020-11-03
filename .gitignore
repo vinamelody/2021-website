@@ -5,7 +5,10 @@ node_modules
 yarn-error.log
 
 # Build directory
-/public
+/public/page-data
+/public/static
+manifest.webmanifest
+index.html
 
 # macOS
 .DS_Store
