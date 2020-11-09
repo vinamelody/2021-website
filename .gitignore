@@ -5,8 +5,7 @@ node_modules
 yarn-error.log
 
 # Build directory
-/public/page-data
-/public/static
+/public/*
 manifest.webmanifest
 index.html
 

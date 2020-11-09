@@ -50,8 +50,8 @@ function Header() {
         >
           {[
             {
-              route: `#`,
-              title: `Tickets coming soon!`,
+              route: `https://ti.to/iosconfsg/2021`,
+              title: `BUY TICKETS`,
             },
           ].map((link) => (
             <Link
