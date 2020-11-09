@@ -15,7 +15,7 @@
         @apply text-lg my-3;
     }
 }
-/* 
+
 .conf-details {
     position: absolute;
     left: 20%;
@@ -36,4 +36,4 @@
     width: auto;
     z-index: 6;
     color: white;
-} */
+}
