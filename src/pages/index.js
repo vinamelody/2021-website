@@ -2,8 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-// import tapTapImage from "../images/taptap.png";
-import birdImage from "../images/iosconf-bird.png";
+import headerImage from "../images/iosconfsg-header.jpg";
 import workshopImage from "../images/iosconfsg-workshop.jpg"
 import confImage from "../images/iosconf-team.jpeg"
 import sponsorDeck from "../downloads/sponsors-deck.pdf";
@@ -16,32 +15,12 @@ function IndexPage() {
         title="Home"
       />
 
-      <section className="w-full pattern-triangle">
-        <div className="max-w-4xl mx-auto py-1 md:py-8 pl-4 flex flex-no-wrap">
-          <div className="w-1/2 py-12">
-            <h2 className="inline-block mb-4 font-serif text-2xl md:text-4xl text-black">
-              iOS Conf SG - 2021
-            </h2> <br/>
-            <h4>Virtual Edition</h4>
-            <p className="md:leading-loose mb-3">
-              <br/>
-              <h4><strong>Workshops - </strong> 18th & 19th January</h4>
-              <h4><strong>Conference - </strong> 21st & 22nd January</h4>
-              {` `}
-            </p>
-            {/* <p>
-              <a href="https://www.papercall.io/iosconfsg2021" className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 border-gray-400 rounded shadow">Submit a talk now!</a>
-            </p> */}
-          </div>
-          <div className="w-1/2 pt-12 md:p-0">
-            <img
-              alt="Bird coding with a Mac"
-              className="w-3/4 mx-auto"
-              src={birdImage}
-            />
-          </div>
-
-        </div>
+      <section className="w-full">               
+         <img
+            alt="Bird coding with a Mac"
+            className="w-full"
+            src={headerImage}
+          />
       </section>
 
       <section className="w-full">
