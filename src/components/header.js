@@ -2,7 +2,7 @@ import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
 import logoImage from "../images/logo-flat.svg"
 
-function Header() {
+function Header () {
   const [isExpanded, toggleExpansion] = useState(false);
   const { site } = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -19,7 +19,7 @@ function Header() {
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-4">
         <Link to="/">
           <h1 className="flex items-center text-orange-600 no-underline">
-            <img 
+            <img
               className="w-12"
               src={logoImage}
             />
@@ -44,24 +44,10 @@ function Header() {
         </button>
 
         <nav
-          className={`${
-            isExpanded ? `block` : `hidden`
-          } md:block md:flex md:items-center w-full md:w-auto`}
+          className={`${isExpanded ? `block` : `hidden`
+            } md:block md:flex md:items-center w-full md:w-auto`}
         >
-          {[
-            {
-              route: `https://ti.to/iosconfsg/2021`,
-              title: `BUY TICKETS`,
-            },
-          ].map((link) => (
-            <Link
-              className="block mt-4 text-orange-500 no-underline md:inline-block md:mt-0 md:ml-6"
-              key={link.title}
-              to={link.route}
-            >
-              {link.title}
-            </Link>
-          ))}
+          <a href='https://ti.to/iosconfsg/2021' target='_blank' rel='noreferrer' className="bg-orange-500 w-full text-center hover:bg-orange-600 text-white mt-2 px-4 py-2 border-gray-400 rounded shadow">Buy Tickets</a>
         </nav>
       </div>
     </header>

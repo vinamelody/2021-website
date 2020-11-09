@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 // import tapTapImage from "../images/taptap.png";
 // import birdImage from "../images/iosconf-bird.png";
-import headerImage from "../images/iosconfsg-header.jpg";
+// import headerImage from "../images/iosconfsg-header.jpg";
 import workshopImage from "../images/iosconfsg-workshop.jpg"
 import confImage from "../images/iosconf-team.jpeg"
 import sponsorDeck from "../downloads/sponsors-deck.pdf";
@@ -13,7 +13,7 @@ import {
   MobileView
 } from "react-device-detect";
 
-function IndexPage() {
+function IndexPage () {
   return (
     <Layout>
       <SEO
@@ -21,28 +21,25 @@ function IndexPage() {
         title="Home"
       />
 
-      <section className="w-full">               
-         <img
-            alt="Bird coding with a Mac"
-            className="w-full"
-            src={headerImage}
-          />
-
+      <section className="w-full bg-hero bg-cover bg-center">
         <BrowserView>
-        <div className="w-full conf-details">
-           <strong><h1 className="text-4xl">iOS Conf SG - 2021</h1></strong>
-           Virtual Edition<br/> <br/>
-           
-            <h3>Workshops - 18th and 19th January</h3>
-            <h3>Conference - 21st and 22nd January</h3>            
-        </div>
+          <div className="flex flex-col max-w-4xl mx-auto pl-4 py-24">
+            <h1 className="text-4xl text-orange-500">iOS Conf SG - 2021</h1>
+            <h2 className="text-white text-xl">Virtual Edition</h2>
+            <h3 className="text-white text-xl mb-0">Workshops - 18th and 19th January</h3>
+            <h3 className="text-white text-xl mt-0">Conference - 21st and 22nd January</h3>
+            <a href='https://ti.to/iosconfsg/2021' target='_blank' rel='noreferrer' className="bg-orange-500 w-1/3 text-center hover:bg-orange-600 text-white mt-2 px-4 py-2 border-gray-400 rounded shadow">Buy Tickets</a>
+          </div>
         </BrowserView>
 
         <MobileView>
-        <div className="w-full conf-details-mobile">
-           <h4 className="text-4xl">iOS Conf SG</h4>
-           Virtual Edition<br/> <br/>           
-        </div>
+          <div className="flex flex-col max-w-4xl pl-4 py-6">
+            <h1 className="text-3xl text-orange-500">iOS Conf SG - 2021</h1>
+            <h2 className="text-white text-m">Virtual Edition</h2>
+            <h3 className="text-white text-xs mb-0">Workshops - 18th and 19th January</h3>
+            <h3 className="text-white text-xs mt-0">Conference - 21st and 22nd January</h3>
+            <a href='https://ti.to/iosconfsg/2021' target='_blank' rel='noreferrer' className="bg-orange-500 w-1/3 text-center hover:bg-orange-600 text-white mt-2 px-4 py-2 border-gray-400 rounded shadow">Buy Tickets</a>
+          </div>
         </MobileView>
       </section>
 
@@ -80,7 +77,7 @@ function IndexPage() {
           <a href={sponsorDeck} className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 border-gray-400 rounded shadow">Download Sponsorship Deck</a>
         </p>
       </section>
-    </Layout>
+    </Layout >
   );
 }
 

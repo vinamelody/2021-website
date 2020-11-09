@@ -3,7 +3,13 @@ module.exports = {
   purge: [
     './src/**/*.js',
   ],
-  theme: {},
+  theme: {
+    extend: {
+      backgroundImage: theme => ({
+        'hero': "url('../images/iosconfsg-header.jpg')"
+      })
+    }
+  },
   variants: {},
   // https://github.com/tailwindcss/custom-forms
   plugins: [
