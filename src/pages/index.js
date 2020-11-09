@@ -2,10 +2,16 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+// import tapTapImage from "../images/taptap.png";
+// import birdImage from "../images/iosconf-bird.png";
 import headerImage from "../images/iosconfsg-header.jpg";
 import workshopImage from "../images/iosconfsg-workshop.jpg"
 import confImage from "../images/iosconf-team.jpeg"
 import sponsorDeck from "../downloads/sponsors-deck.pdf";
+import {
+  BrowserView,
+  MobileView
+} from "react-device-detect";
 
 function IndexPage() {
   return (
@@ -21,6 +27,23 @@ function IndexPage() {
             className="w-full"
             src={headerImage}
           />
+
+        <BrowserView>
+        <div className="w-full conf-details">
+           <strong><h1 className="text-4xl">iOS Conf SG - 2021</h1></strong>
+           Virtual Edition<br/> <br/>
+           
+            <h3>Workshops - 18th and 19th January</h3>
+            <h3>Conference - 21st and 22nd January</h3>            
+        </div>
+        </BrowserView>
+
+        <MobileView>
+        <div className="w-full conf-details-mobile">
+           <h4 className="text-4xl">iOS Conf SG</h4>
+           Virtual Edition<br/> <br/>           
+        </div>
+        </MobileView>
       </section>
 
       <section className="w-full">
