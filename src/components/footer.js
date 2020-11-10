@@ -6,7 +6,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";
 import { faSlackHash } from "@fortawesome/free-brands-svg-icons/faSlackHash";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 
-function Footer() {
+function Footer () {
     return (
         <>
             <section className="bg-orange-600">
@@ -22,7 +22,7 @@ function Footer() {
                 <div className="max-w-4xl mx-auto mt-8">
                     <ul className="list-none text-sm text-white md:mx-auto p-4 md:px-8">
                         <li className="inline-block mr-4 mb-2"><Link className="underline" to='/coc'>Code of Conduct</Link></li>
-                        <li className="inline-block mr-4 mb-2"><Link className="underline" to='mailto:subh@iosconf.sg'>Contact: subh@iosconf.sg</Link></li>
+                        <li className="inline-block mr-4 mb-2"><a className="underline" href='mailto:subh@iosconf.sg'>Contact: subh@iosconf.sg</a></li>
                         <li className="inline-block mr-4 mb-2"><Link className="underline" to='https://www.meetup.com/Singapore-iOS-Dev-Scout-Meetup/'>iOS Dev Scout</Link></li>
                         <li className="inline-block mr-4 mb-2"><Link className="underline" to='https://cu.sg/'>CU Society</Link></li>
                         <li className="inline-block mr-4 mb-2"><Link className="underline" to='/faq'>Frequently Asked Questions</Link></li>

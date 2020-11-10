@@ -11,6 +11,7 @@ import {
 import SpeakerBioModal from "./speakers/SpeakerBioModal";
 import SpeakerBioItem from "./speakers/SpeakerBioItem";
 import { Transition } from "@headlessui/react";
+import { Helmet } from "react-helmet"
 
 const speakers = [
   {
@@ -54,6 +55,9 @@ function IndexPage () {
 
   return (
     <Layout>
+      <Helmet>
+        <script key="tito" src='https://js.tito.io/v1' async></script>
+      </Helmet>
       <SEO
         keywords={[`ios`, `ios conference`, `iosConf Singapore`, `ios developer`]}
         title="Home"
@@ -66,7 +70,7 @@ function IndexPage () {
             <h2 className="text-white text-xl">Virtual Edition</h2>
             <h3 className="text-white text-xl mb-0">Workshops - 18th and 19th January</h3>
             <h3 className="text-white text-xl mt-0">Conference - 21st and 22nd January</h3>
-            <a href='https://ti.to/iosconfsg/2021' target='_blank' rel='noreferrer' className="bg-orange-500 w-1/3 text-center hover:bg-orange-600 text-white mt-2 px-4 py-2 border-gray-400 rounded shadow">Buy Tickets</a>
+            <a href="#ticket" className="bg-orange-500 w-1/3 text-center hover:bg-orange-600 text-white mt-2 px-4 py-2 border-gray-400 rounded shadow">Buy Tickets</a>
           </div>
         </BrowserView>
 
@@ -76,11 +80,10 @@ function IndexPage () {
             <h2 className="text-white text-m">Virtual Edition</h2>
             <h3 className="text-white text-xs mb-0">Workshops - 18th and 19th January</h3>
             <h3 className="text-white text-xs mt-0">Conference - 21st and 22nd January</h3>
-            <a href='https://ti.to/iosconfsg/2021' target='_blank' rel='noreferrer' className="bg-orange-500 w-1/3 text-center hover:bg-orange-600 text-white mt-2 px-4 py-2 border-gray-400 rounded shadow">Buy Tickets</a>
+            <a href="#ticket" className="bg-orange-500 w-1/3 text-center hover:bg-orange-600 text-white mt-2 px-4 py-2 border-gray-400 rounded shadow">Buy Tickets</a>
           </div>
         </MobileView>
       </section>
-
       <section className="w-full">
         <div className="flex flex-col flex-no-wrap md:flex-row">
           <div className="w-full md:w-1/2">
@@ -103,10 +106,18 @@ function IndexPage () {
           </div>
         </div>
       </section>
-
-      <section className="w-full text-center">
+      <section id="ticket" className="w-full py-24 bg-gray-100">
+        <div className="text-center w-full">
+          <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
+            Tickets
+          </h2>
+          <h3>Early Bird tickets are available for limited time!</h3>
+        </div>
+        <tito-widget event="iosconfsg/2021"></tito-widget>
+      </section>
+      <section className="w-full text-center py-24">
         <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
-              Speakers
+          Speakers
         </h2>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 my-6">
           <ul className="mx-auto sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl">
