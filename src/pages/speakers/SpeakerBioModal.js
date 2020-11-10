@@ -40,7 +40,6 @@ function SpeakerBioModal (props) {
 
 SpeakerBioModal.propTypes = {
   speaker: PropTypes.object,
-  show: PropTypes.bool.isRequired,
   handleClose: PropTypes.func.isRequired
 }
 
