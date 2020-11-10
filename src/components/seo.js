@@ -41,6 +41,10 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: `https://iosconf.sg/logo.png`,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },

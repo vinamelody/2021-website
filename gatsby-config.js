@@ -6,7 +6,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `iOS Conf SG`,
-    description: `iOS Conference Singapore`,
+    description: `iOS Conf SG - 2021`,
     author: `@vinamelody`,
   },
   plugins: [
