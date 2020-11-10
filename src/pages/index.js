@@ -11,13 +11,6 @@ import {
 import SpeakerBioModal from "./speakers/SpeakerBioModal";
 import SpeakerBioItem from "./speakers/SpeakerBioItem";
 import { Transition } from "@headlessui/react";
-import ReactPixel from 'react-facebook-pixel';
-const options = {
-  autoConfig: true, // set pixel's autoConfig
-  debug: false, // enable logs
-};
-ReactPixel.init('2358779474344408', options);
-ReactPixel.pageView();
 
 const speakers = [
   {
