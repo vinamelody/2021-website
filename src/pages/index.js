@@ -90,7 +90,7 @@ function IndexPage () {
             <div className="flex items-center flex-col bg-gray-500 bg-cover bg-bottom" style={{ backgroundImage: `url(${workshopImage})`, backgroundBlendMode: "multiply", height: "60vh" }}>
               <div className="text-center text-white my-auto">
                 <h1 className="text-4xl">Workshops</h1>
-                <p>Hands-on experience on latest tools and iOS APIs.</p>
+                <p>Hands-on experience with the latest tools and iOS APIs.</p>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@ function IndexPage () {
           <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
             Tickets
           </h2>
-          <h3>Early Bird tickets are available for limited time!</h3>
+          <h3>Early Bird tickets are available for a limited time!</h3>
         </div>
         <tito-widget event="iosconfsg/2021"></tito-widget>
       </section>
@@ -142,7 +142,7 @@ function IndexPage () {
           Sponsors
         </h2>
         <p className="mb-12">
-          If you&apos;d like to support and engage our iOS community, kindly <a href="mailto:subh@iosconf.sg" className="text-orange-500">get in touch</a> with us for more information. Thank you!
+          If you&apos;d like to support and engage our iOS community, please <a href="mailto:subh@iosconf.sg" className="text-orange-500">contact us</a> for more information. Thank you!
         </p>
         <p className="mb-12">
           <a href={sponsorDeck} className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 border-gray-400 rounded shadow">Download Sponsorship Deck</a>
