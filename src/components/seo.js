@@ -10,6 +10,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         siteMetadata {
           title
           description
+          siteUrl
           author
         }
       }
@@ -42,7 +43,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:image`,
-          content: `https://iosconf.sg/logo.png`,
+          content: `${site.siteMetadata.siteUrl}/logo.png`,
         },
         {
           name: `twitter:card`,
