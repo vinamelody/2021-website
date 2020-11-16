@@ -13,6 +13,11 @@ import SpeakerBioItem from "./speakers/SpeakerBioItem";
 import { Transition } from "@headlessui/react";
 import { Helmet } from "react-helmet"
 
+import logoOozou from "../images/logo-oozu.svg"
+import logoGuardsquare from "../images/logo-guardsquare.jpg"
+import logoSeagroup from "../images/logo-seagroup.png"
+import logoSpdigital from "../images/logo-spdigital.svg"
+
 const speakers = [
   {
     "name": "Paul Hudson",
@@ -62,7 +67,6 @@ function IndexPage () {
         keywords={[`ios`, `ios conference`, `iosConf Singapore`, `ios developer`]}
         title="Home"
       />
-
       <section className="w-full bg-hero bg-cover bg-center">
         <BrowserView>
           <div className="flex flex-col max-w-4xl mx-auto pl-4 py-24">
@@ -94,8 +98,6 @@ function IndexPage () {
               </div>
             </div>
           </div>
-          {/* <img className="object-cover w-1/2" src={workshopImage}/> */}
-          {/* <img className="object-cover w-1/2" src={confImage}/> */}
           <div className="w-full md:w-1/2">
             <div className="flex items-center flex-col bg-gray-500 bg-cover bg-top h-0" style={{ backgroundImage: `url(${confImage})`, backgroundBlendMode: "multiply", height: "60vh" }}>
               <div className="text-center text-white my-auto">
@@ -115,7 +117,35 @@ function IndexPage () {
         </div>
         <tito-widget event="iosconfsg/2021"></tito-widget>
       </section>
-      <section className="w-full text-center py-24">
+      <section className="w-full py-24">
+        <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8">
+          <h2 className="w-full md:w-1/3 my-auto text-3xl text-orange-600 text-center md:text-left mb-8">
+            Gold Sponsors
+          </h2>
+          <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-center">
+            <a href="https://www.seagroup.com/" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-0 mr-8 object-contain flex-grow-0" src={logoSeagroup} alt="SEA Group" /></a>
+            <a href="https://oozou.com/" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-8 mr-16 object-contain" src={logoOozou} alt="Oozou" /></a>
+            <a href="https://www.spdigital.sg/" target="_blank" rel="noreferrer"><img className="h-24 my-4 mx-0" src={logoSpdigital} alt="SPDigital" /></a>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8 mt-12 mb-8">
+          <h2 className="w-full md:w-1/3 my-auto text-3xl text-orange-600 text-center md:text-left mb-8">
+            Silver Sponsors
+          </h2>
+          <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-center">
+            <a href="https://www.guardsquare.com/" target="_blank" rel="noreferrer"><img className="h-12 my-4 mx-8 object-contain" src={logoGuardsquare} alt="Guardsquare" /></a>
+          </div>
+        </div>
+        <div className="w-full">
+          <p className="mb-12 mx-auto text-center">
+            If you&apos;d like to support and engage our iOS community, please <a href="mailto:subh@iosconf.sg" className="text-orange-500">contact us</a> for more information. Thank you!
+          </p>
+          <p className="mb-12 mx-auto text-center">
+            <a href={sponsorDeck} className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 border-gray-400 rounded shadow">Download Sponsorship Deck</a>
+          </p>
+        </div>
+      </section>
+      <section className="w-full text-center py-24 bg-gray-100">
         <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
           Speakers
         </h2>
@@ -135,18 +165,6 @@ function IndexPage () {
         <Transition show={showBio} appear={true} enter="ease-out duration-300" enterFrom="opacity-0" enterTo="opacity-100" leave="ease-in duration-200" leaveFrom="opacity-100" leaveTo="opacity-0">
           <SpeakerBioModal speaker={selectedSpeaker} handleClose={handleCloseBio} />
         </Transition>
-      </section>
-
-      <section className="text-center bg-gray-100 py-24">
-        <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
-          Sponsors
-        </h2>
-        <p className="mb-12">
-          If you&apos;d like to support and engage our iOS community, please <a href="mailto:subh@iosconf.sg" className="text-orange-500">contact us</a> for more information. Thank you!
-        </p>
-        <p className="mb-12">
-          <a href={sponsorDeck} className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 border-gray-400 rounded shadow">Download Sponsorship Deck</a>
-        </p>
       </section>
     </Layout >
   );
