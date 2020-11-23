@@ -125,7 +125,7 @@ function IndexPage () {
           <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-center">
             <a href="https://www.seagroup.com/" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-0 mr-8 object-contain flex-grow-0" src={logoSeagroup} alt="SEA Group" /></a>
             <a href="https://oozou.com/" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-8 mr-16 object-contain" src={logoOozou} alt="Oozou" /></a>
-            <a href="https://www.spdigital.sg/" target="_blank" rel="noreferrer"><img className="h-24 my-4 mx-0" src={logoSpdigital} alt="SPDigital" /></a>
+            <a href="https://www.spdigital.io/" target="_blank" rel="noreferrer"><img className="h-24 my-4 mx-0" src={logoSpdigital} alt="SPDigital" /></a>
           </div>
         </div>
         <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8 mt-12 mb-8">
