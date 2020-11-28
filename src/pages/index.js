@@ -113,20 +113,44 @@ function IndexPage () {
           <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
             Tickets
           </h2>
-          <h3>Early Bird tickets are available until <strong>15th December!</strong></h3>
-          <h4>--- Earlybird Price ---</h4>
-          <h4>Early Bird Conf Only - S$60</h4>
-          <h4>Early Bird Bundle (Conference + Workshop) - S$210</h4>
-          <h4>--- Regular Price ---</h4>
-          <h4>Regular Conf Only - S$120</h4>
-          <h4>Regular Bundle (Conference + Workshop) - S$320</h4>
-          <br></br>
-          <h4>--- Workshop Topics ---</h4>
-          <h4>Monday, 18 Jan 2021, 9 AM - 2 PM SGT - Workshop on Combine by Daniel Steinberg</h4>
-          <h4>Tuesday, 19 Jan 2021, 1 PM - 6 PM SGT - Modern Swift Development by Vincent Pradeilles</h4>
         </div>
         <tito-widget event="iosconfsg/2021"></tito-widget>
-      </section>   
+        <div className="max-w-4xl lg:mx-auto grid lg:grid-cols-3 lg:gap-x-5 mt-16">
+          <div>
+            <div className="text-left">
+              <span className="inline-flex rounded-full bg-indigo-100 text-indigo-800 px-3">Early Bird Tickets</span>
+            </div>
+            <p className="text-xl font-semibold text-left">
+              Get it while you can!
+              </p>
+            <p className="text-left">
+              Early Bird tickets are available until 15th December 2020. Choose a ticket for both conference plus workshop (S$210) or conference only (S$60).
+              </p>
+          </div>
+          <div>
+            <div className="text-left">
+              <span className="inline-flex rounded-full bg-pink-100 text-pink-800 px-3">Regular Price</span>
+            </div>
+            <p className="text-xl font-semibold text-left">
+              The first virtual iOS Conf SG!
+              </p>
+            <p className="text-left">
+              From 16th December, the conference plus workshop ticket is S$320. Conference ticket is S$120.
+              </p>
+          </div>
+          <div>
+            <div className="text-left">
+              <span className="inline-flex rounded-full bg-green-100 text-green-800 px-3">Workshops</span>
+            </div>
+            <p className="text-xl font-semibold text-left">
+              Level up through workshops!
+              </p>
+            <p className="text-left">
+              A workshop on <strong>Combine by Daniel Steinberg</strong> on Monday, 18 Jan 2021, 9 AM - 2 PM SGT. And <strong>Modern Swift Development</strong> by Vincent Pradeilles on Tuesday, 19 Jan 2021, 1 PM - 6 PM SGT.
+              </p>
+          </div>
+        </div>
+      </section>
       <section className="w-full py-24">
         <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8">
           <h2 className="w-full md:w-1/3 my-auto text-3xl text-orange-600 text-center md:text-left mb-8">
