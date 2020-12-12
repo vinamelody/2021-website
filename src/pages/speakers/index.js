@@ -33,7 +33,8 @@ const speakers = [
     "companyUrl": "https://www.hackingwithswift.com/",
     "twitter": "twostraws",
     "linkedin": "",
-    "bio": "Paul is the author of Hacking with Swift, Pro Swift, Swift Design Patterns, Server-Side Swift, Hacking with macOS, Hacking with watchOS, Hacking with tvOS, Swift Coding Challenges, and more. Suffice it to say, he quite likes Swift. And coffee. (But mostly Swift.) (And coffee.)"
+    "bio": "Paul is the author of Hacking with Swift, Pro Swift, Swift Design Patterns, Server-Side Swift, Hacking with macOS, Hacking with watchOS, Hacking with tvOS, Swift Coding Challenges, and more. Suffice it to say, he quite likes Swift. And coffee. (But mostly Swift.) (And coffee.)",
+    "talkTitle": "Global Variable Oriented Programming"
   },
   {
     "name": "Peter Steinberger",
@@ -61,7 +62,8 @@ const speakers = [
     "companyUrl": "https://www.xero.com",
     "twitter": "mugunthkumar",
     "linkedin": "",
-    "bio": "Dad first, iOS next. Co-author: iOS Programming Pushing the Limits. Wrote MKStoreKit, MKNetworkKit. Conf Speaker: Bluetooth SIG, iOS Conf SG, try! Swift."
+    "bio": "Dad first, iOS next. Co-author: iOS Programming Pushing the Limits. Wrote MKStoreKit, MKNetworkKit. Conf Speaker: Bluetooth SIG, iOS Conf SG, try! Swift.",
+    "talkTitle": "Global Variable Oriented Programming"
   },
   {
     "name": "Malin Sundberg",
