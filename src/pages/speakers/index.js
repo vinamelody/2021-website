@@ -184,6 +184,8 @@ function SpeakersPage () {
             </h2>
           </div>
         </div>
+      </section>
+      <section>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 my-6">
           <ul className="mx-auto sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl">
             {
