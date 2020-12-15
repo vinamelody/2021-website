@@ -9,6 +9,7 @@ function SpeakerBioItem (props) {
   const { handleClick, speaker } = props
 
   const hasLinkedIn = (speaker && Object.prototype.hasOwnProperty.call(speaker, 'linkedin') && speaker.linkedin !== '')
+  const hasTwitter = (speaker && Object.prototype.hasOwnProperty.call(speaker, 'twitter') && speaker.twitter !== '')
 
   return (
     <div className="space-y-6">
@@ -20,7 +21,7 @@ function SpeakerBioItem (props) {
               <h4 className="text-center">{speaker.name}</h4>
               <p className="text-orange-600 text-center"><a href={speaker.companyUrl} target="_blank" rel="noopener noreferrer">{speaker.company}</a></p>
               <div className="flex justify-center">
-                <Link to={`https://www.twitter.com/${speaker.twitter}`}><FontAwesomeIcon size="1x" icon={faTwitter} /></Link>
+                {hasTwitter && <Link to={`https://www.twitter.com/${speaker.twitter}`}><FontAwesomeIcon size="1x" icon={faTwitter} /></Link>}
                 {hasLinkedIn && <Link className="ml-1" to={`https://www.linkedin.com/${speaker.linkedin}`}><FontAwesomeIcon size="1x" icon={faLinkedin} /></Link>}
               </div>
             </div>
