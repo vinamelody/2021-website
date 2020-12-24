@@ -3,6 +3,7 @@ import Layout from "../../components/layout"
 import SpeakerBioModal from "./SpeakerBioModal"
 import SpeakerBioItem from "./SpeakerBioItem"
 import { Transition } from "@headlessui/react"
+import { SpeakersData } from "~data"
 
 const workshopSpeakers = [
   {
@@ -191,7 +192,7 @@ function SpeakersPage () {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 my-6">
           <ul className="mx-auto sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl">
             {
-              speakers.map((speaker, index) => {
+              SpeakersData.map((speaker, index) => {
                 return (
                   <li key={index}>
                     <SpeakerBioItem handleClick={() => handleShowBio(speaker)} speaker={speaker} />

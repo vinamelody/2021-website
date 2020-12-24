@@ -12,6 +12,7 @@ import SpeakerBioModal from "./speakers/SpeakerBioModal";
 import SpeakerBioItem from "./speakers/SpeakerBioItem";
 import { Transition } from "@headlessui/react";
 import { Helmet } from "react-helmet"
+import { SpeakersData } from "~data"
 
 import logoOozou from "../images/logo-oozu.svg"
 import logoGuardsquare from "../images/logo-guardsquare.jpg"
@@ -177,6 +178,7 @@ const speakers = [
     "bio": "Kenneth works as a Principal Software Engineer at SPDigital. He is passionate about TDD and BDD. He likes to bring agile software practices into agile development space. He is also a prominent speaker at iOS Dev Scout, especially on iOS topics like Testing and IPA Code Injection. He enjoys running and playing the piano while not thinking about failed tests."
   },    
 ]
+
 
 function IndexPage () {
   const [showBio, setShowBio] = useState(false)

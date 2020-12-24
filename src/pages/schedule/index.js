@@ -16,6 +16,18 @@ import { PageTitleSection, Tabs } from "~components"
 // ]
 
 
+// const schedule = [
+//   {
+//     "title": "Check-in 📝",
+//     "start_at": "2019-01-17T08:00:00+0800",
+//     "end_at": "2019-01-17T09:00:00+0800",
+//     "speaker_id": "",
+//     "talk_description": "Are you excited to level yourself up!? To speed up registration process, please prepare the QR Code which you can find in your ticket. We welcome your feedback through out the conference! Just tap Feedback button on each session.",
+//     "icon_filename": "registration",
+//   }
+// ]
+
+
 function SchedulePage () {
 
   const [currentTab, setCurrentTab] = useState()
