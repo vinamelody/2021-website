@@ -57,44 +57,42 @@ function SchedulePage () {
           <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
             <table className="min-w-full divide-ydivide-gray-200">
               <tbody className="bg-white divide-y divide-x divide-gray-200">
-                <tr>
-                  <td className="w-1/5 px-6 py-3 whitespace-nowrap">09:00 - 09:30</td>
-                  <td className="w-1/3 px-6 py-3 whitespace-nowrap">
-                    Conference Opening
-                  </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-3 whitespace-nowrap align-top">09:35 - 10:00</td>
-                  <td className="px-6 py-3 whitespace-nowrap align-top">
-                    <div className="min-w-0 flex flex-1 items-center">
-                      <div className="flex-shrink-0">
-                        <img className="h-16 w-16 rounded-full" src="../speakers/paul.jpg" />
-                      </div>
-                      <div className="min-w-0 flex-1 flex flex-col items-left px-4">
-                        <h3 className="font-medium text-orange-600 my-0 underline">Paul Hudson</h3>
-                        <p className="text-sm text-gray-600">
-                          Hacking With Swift
-                        </p>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="px-6 py-3 whitespace-nowrap align-top">
-                    <div>
-                      <h3 className="font-medium text-orange-600 my-0">
-                        Global Variable Oriented Programming
-                      </h3>
-                      <p>
-                        In this talk, Paul will walk you through the glorious history of global variables in software development, demonstrate why they aren&quot;t going away any time soon, and even show you how you can use reflection, property wrappers, and Combine to get a little bit of global Variable magic in your UIKit Code.
-                      </p>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-3 whitespace-nowrap">09:35 - 10:00</td>
-                  <td className="px-6 py-3 whitespace-nowrap">Designing Your App to be Discoverable</td>
-                  <td className="px-6 py-3 whitespace-nowrap">Dave Verwer</td>
-                </tr>
+                {
+                  ScheduleData.map((talk, index) => {
+                    if (talk.speaker_name === "Organiser") {
+                      return (
+                        <tr key={index}>
+                          <td className="w-1/5 px-6 py-3 whitespace-nowrap">{talk.start_at} - {talk.end_at}</td>
+                          <td className="w-1/3 px-6 py-3 whitespace-nowrap">{talk.title}</td>
+                          <td></td>
+                        </tr>
+                      )
+                    } else {
+                      return (
+                        <tr key={index}>
+                          <td className="px-6 py-3 whitespace-nowrap align-top">{talk.start_at} - {talk.end_at}</td>
+                          <td className="px-6 py-3 whitespace-nowrap align-top">
+                            <div className="min-w-0 flex flex-1 items-center">
+                              <div className="flex-shrink-0">
+                                <img className="h-16 w-16 rounded-full" src={`../speakers/${talk.speaker_image}.jpg`} />
+                              </div>
+                              <div className="min-w-0 flex-1 flex flex-col items-left px-4">
+                                <h3 className="font-medium text-orange-600 my-0 underline">{talk.speaker_name}</h3>
+                                <p className="text-sm text-gray-600">{talk.speaker_company}</p>
+                              </div>
+                            </div>
+                          </td>
+                          <td className="px-6 py-3 whitespace-nowrap align-top">
+                            <div>
+                              <h3 className="font-medium text-orange-600 my-0">{talk.title}</h3>
+                              <p>{talk.talk_description}</p>
+                            </div>
+                          </td>
+                        </tr>
+                      )
+                    }
+                  })
+                }
               </tbody>
             </table>
           </div>
