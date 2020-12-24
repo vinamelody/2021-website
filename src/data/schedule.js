@@ -1,6 +1,6 @@
 const schedule = [
   {
-    "activity": "iosconfsg20.workshop1",
+    "activity": "iosconfsg21.workshop1",
     "end_at": "2020-01-15T01:00:00+00:00",
     "id": 48,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -14,7 +14,7 @@ const schedule = [
     "title": "Check-in"
   },
   {
-    "activity": "iosconfsg20.workshop1",
+    "activity": "iosconfsg21.workshop1",
     "end_at": "2020-01-15T02:30:00+00:00",
     "id": 49,
     "speaker_bio": "Meng To is the author of Design+Code. Meng started off his career as a self-taught designer from Montreal and eventually traveled around the world for 2 years as his US VISA was denied. During his travels, he wrote a book which now has 35,000 readers.",
@@ -28,7 +28,7 @@ const schedule = [
     "title": "SwiftUI Workshop"
   },
   {
-    "activity": "iosconfsg20.workshop1",
+    "activity": "iosconfsg21.workshop1",
     "end_at": "2020-01-17T02:45:00+00:00",
     "id": 50,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -42,7 +42,7 @@ const schedule = [
     "title": "Break"
   },
   {
-    "activity": "iosconfsg20.workshop1",
+    "activity": "iosconfsg21.workshop1",
     "end_at": "2020-01-15T04:30:00+00:00",
     "id": 51,
     "speaker_bio": "Meng To is the author of Design+Code. Meng started off his career as a self-taught designer from Montreal and eventually traveled around the world for 2 years as his US VISA was denied. During his travels, he wrote a book which now has 35,000 readers.",
@@ -56,7 +56,7 @@ const schedule = [
     "title": "SwiftUI Workshop"
   },
   {
-    "activity": "iosconfsg20.workshop1",
+    "activity": "iosconfsg21.workshop1",
     "end_at": "2020-01-17T05:30:00+00:00",
     "id": 52,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -70,7 +70,7 @@ const schedule = [
     "title": "Lunch"
   },
   {
-    "activity": "iosconfsg20.workshop1",
+    "activity": "iosconfsg21.workshop1",
     "end_at": "2020-01-15T07:00:00+00:00",
     "id": 53,
     "speaker_bio": "Meng To is the author of Design+Code. Meng started off his career as a self-taught designer from Montreal and eventually traveled around the world for 2 years as his US VISA was denied. During his travels, he wrote a book which now has 35,000 readers.",
@@ -84,7 +84,7 @@ const schedule = [
     "title": "SwiftUI Workshop"
   },
   {
-    "activity": "iosconfsg20.workshop1",
+    "activity": "iosconfsg21.workshop1",
     "end_at": "2020-01-17T07:20:00+00:00",
     "id": 54,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -98,7 +98,7 @@ const schedule = [
     "title": "Break"
   },
   {
-    "activity": "iosconfsg20.workshop1",
+    "activity": "iosconfsg21.workshop1",
     "end_at": "2020-01-15T09:00:00+00:00",
     "id": 55,
     "speaker_bio": "Meng To is the author of Design+Code. Meng started off his career as a self-taught designer from Montreal and eventually traveled around the world for 2 years as his US VISA was denied. During his travels, he wrote a book which now has 35,000 readers.",
@@ -112,7 +112,7 @@ const schedule = [
     "title": "SwiftUI Workshop"
   },
   {
-    "activity": "iosconfsg20.workshop2",
+    "activity": "iosconfsg21.workshop2",
     "end_at": "2020-01-16T01:00:00+00:00",
     "id": 56,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -126,7 +126,7 @@ const schedule = [
     "title": "Check-in"
   },
   {
-    "activity": "iosconfsg20.workshop2",
+    "activity": "iosconfsg21.workshop2",
     "end_at": "2020-01-16T02:30:00+00:00",
     "id": 57,
     "speaker_bio": "Scott has been an iOS developer since the first public release of the SDK from Apple. His day job is working as a Solutions Architect for a Fortune 500 company in the Pacific Northwest but he does contract work for a couple clients via his one-man shop, Gargoyle Software, LLC.",
@@ -140,7 +140,7 @@ const schedule = [
     "title": "Concurrency in Swift"
   },
   {
-    "activity": "iosconfsg20.workshop2",
+    "activity": "iosconfsg21.workshop2",
     "end_at": "2020-01-17T02:45:00+00:00",
     "id": 58,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -154,7 +154,7 @@ const schedule = [
     "title": "Break"
   },
   {
-    "activity": "iosconfsg20.workshop2",
+    "activity": "iosconfsg21.workshop2",
     "end_at": "2020-01-16T04:30:00+00:00",
     "id": 59,
     "speaker_bio": "Scott has been an iOS developer since the first public release of the SDK from Apple. His day job is working as a Solutions Architect for a Fortune 500 company in the Pacific Northwest but he does contract work for a couple clients via his one-man shop, Gargoyle Software, LLC.",
@@ -168,7 +168,7 @@ const schedule = [
     "title": "Concurrency in Swift"
   },
   {
-    "activity": "iosconfsg20.workshop2",
+    "activity": "iosconfsg21.workshop2",
     "end_at": "2020-01-17T05:30:00+00:00",
     "id": 60,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -182,7 +182,7 @@ const schedule = [
     "title": "Lunch"
   },
   {
-    "activity": "iosconfsg20.workshop2",
+    "activity": "iosconfsg21.workshop2",
     "end_at": "2020-01-16T07:00:00+00:00",
     "id": 61,
     "speaker_bio": "Tim is a Swift developer from Manchester, UK. He's the server-side Swift team lead at raywenderlich.com and has written the unofficial-official book on Vapor with the founders of the framework. He founded Broken Hands a few years ago delivers talks and workshops on Vapor and server-side Swift around the world. He also co-organises the ServerSide.swift conference - the world’s first and only conference focused on server-side Swift.",
@@ -196,7 +196,7 @@ const schedule = [
     "title": "Server-side Swift with Vapor"
   },
   {
-    "activity": "iosconfsg20.workshop2",
+    "activity": "iosconfsg21.workshop2",
     "end_at": "2020-01-17T07:20:00+00:00",
     "id": 62,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -210,7 +210,7 @@ const schedule = [
     "title": "Break"
   },
   {
-    "activity": "iosconfsg20.workshop2",
+    "activity": "iosconfsg21.workshop2",
     "end_at": "2020-01-16T09:00:00+00:00",
     "id": 63,
     "speaker_bio": "Tim is a Swift developer from Manchester, UK. He's the server-side Swift team lead at raywenderlich.com and has written the unofficial-official book on Vapor with the founders of the framework. He founded Broken Hands a few years ago delivers talks and workshops on Vapor and server-side Swift around the world. He also co-organises the ServerSide.swift conference - the world’s first and only conference focused on server-side Swift.",
@@ -224,7 +224,7 @@ const schedule = [
     "title": "Server-side Swift with Vapor"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T01:10:00+00:00",
     "id": 138,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -238,7 +238,7 @@ const schedule = [
     "title": "Registration & Breakfast"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T01:45:00+00:00",
     "id": 139,
     "speaker_bio": "Husband 💑 Father 👨‍👩‍👧‍👧 Dreamer 🦄 Organizer of @iOSConfSG",
@@ -252,7 +252,7 @@ const schedule = [
     "title": "Opening address"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T02:20:00+00:00",
     "id": 140,
     "speaker_bio": "Dave is an independent iOS developer and author of iOS Dev Weekly ",
@@ -266,7 +266,7 @@ const schedule = [
     "title": "Designing Your App to be Discoverable"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T02:55:00+00:00",
     "id": 141,
     "speaker_bio": "Paul is the author of Hacking with Swift, Pro Swift, Swift Design Patterns, Server-Side Swift, Hacking with macOS, Hacking with watchOS, Hacking with tvOS, Swift Coding Challenges, and more. Suffice it to say, he quite likes Swift. And coffee. (But mostly Swift.) (And coffee.)",
@@ -280,7 +280,7 @@ const schedule = [
     "title": "Global Variable Oriented Programming"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T03:10:00+00:00",
     "id": 142,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -294,7 +294,7 @@ const schedule = [
     "title": "Break ☕️🚻💬"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T03:45:00+00:00",
     "id": 143,
     "speaker_bio": "Sven is one of the core project leaders and authors of the OWASP Mobile Security Testing Guide and OWASP Mobile Application Security Verification Standard and has created the OWASP Mobile Hacking Playground. Sven is giving talks and workshops about Mobile and Web Application Security worldwide to different audiences, ranging from developers to students and penetration testers.",
@@ -308,7 +308,7 @@ const schedule = [
     "title": "Building Secure iOS Apps (you don’t have to learn it the hard way!)"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T04:20:00+00:00",
     "id": 144,
     "speaker_bio": "Douglas is an iOS engineer at PSPDFKit and the lead on their PDF Viewer iOS and Mac app. He helps organise the NSLondon meetup and enjoys travelling while working remotely.",
@@ -322,7 +322,7 @@ const schedule = [
     "title": "Full Keyboard Control in UIKit Apps"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T04:25:00+00:00",
     "id": 145,
     "speaker_bio": "Continuous integration and continuous delivery for mobile apps",
@@ -336,7 +336,7 @@ const schedule = [
     "title": "Setting up iOS CI with Bitrise"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T04:30:00+00:00",
     "id": 146,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -350,7 +350,7 @@ const schedule = [
     "title": "Make moments 📸 "
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T06:00:00+00:00",
     "id": 147,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -364,7 +364,7 @@ const schedule = [
     "title": "Grab a 🍱 and 💬 with fellow coders"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T06:10:00+00:00",
     "id": 148,
     "speaker_bio": "Paul is the author of Hacking with Swift, Pro Swift, Swift Design Patterns, Server-Side Swift, Hacking with macOS, Hacking with watchOS, Hacking with tvOS, Swift Coding Challenges, and more. Suffice it to say, he quite likes Swift. And coffee. (But mostly Swift.) (And coffee.)",
@@ -378,7 +378,7 @@ const schedule = [
     "title": "Swift Quiz by Paul Hudson"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T06:20:00+00:00",
     "id": 149,
     "speaker_bio": "Choon Keat is a Principal Software Engineer at SPdigital. He started the Singapore Ruby Brigade, worked at Slideshare, believes strongly in and contributes to open source.",
@@ -392,7 +392,7 @@ const schedule = [
     "title": "GraphQL for people who don’t need it ⚡️"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T06:55:00+00:00",
     "id": 150,
     "speaker_bio": "Ellen works at Apollo and her personal company Designated Nerd Software",
@@ -406,7 +406,7 @@ const schedule = [
     "title": "Move your bash scripts to Swift Library"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T07:30:00+00:00",
     "id": 151,
     "speaker_bio": "Omer is an iOS Dev at Garena, although he is often found serenading to functional programming. He loves wasting time on developing toy compilers. There are rumors thar he prays to a bust of Chris Lattner, though these are unconfirmed.",
@@ -420,7 +420,7 @@ const schedule = [
     "title": "Bring me to life; A tale of dyld, and how iOS launches your app"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T08:00:00+00:00",
     "id": 152,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -434,7 +434,7 @@ const schedule = [
     "title": "Break ☕️🚻💬"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T08:35:00+00:00",
     "id": 153,
     "speaker_bio": "Scott has been an iOS developer since the first public release of the SDK from Apple. His day job is working as a Solutions Architect for a Fortune 500 company in the Pacific Northwest but he does contract work for a couple clients via his one-man shop, Gargoyle Software, LLC.",
@@ -448,7 +448,7 @@ const schedule = [
     "title": "Sign in with Apple using SwiftUI"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T09:10:00+00:00",
     "id": 154,
     "speaker_bio": "Matt is a macOS and iOS developer based in Melbourne Australia. He has a propensity towards creating apps that are magical and delightful to use. His experiences ranges from backend to front end and feels that such breadth grants the ability to understand the intricacies involved in creating apps.",
@@ -462,7 +462,7 @@ const schedule = [
     "title": "SwiftUI and SVG"
   },
   {
-    "activity": "iosconfsg20.day1",
+    "activity": "iosconfsg21.day1",
     "end_at": "2020-01-17T09:20:00+00:00",
     "id": 155,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -476,7 +476,7 @@ const schedule = [
     "title": "Closing address"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T01:30:00+00:00",
     "id": 156,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -490,7 +490,7 @@ const schedule = [
     "title": "Registration & Breakfast"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T01:45:00+00:00",
     "id": 157,
     "speaker_bio": "iOS Tech Lead & Engineer, iOS Subject Matter Expert at GovTech. Apple Distinguished Educator.",
@@ -504,7 +504,7 @@ const schedule = [
     "title": "Opening address"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T02:20:00+00:00",
     "id": 158,
     "speaker_bio": "Luis is an independent software developer that started with iOS in 2011. Previously he was the iOS Lead at Wallapop. He's the co-founder and organizer of NSSpain. Luis loves traveling and exploring the world, first time in Singapore! 😊",
@@ -518,7 +518,7 @@ const schedule = [
     "title": "@deprecated Monolith @available Modules"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T02:55:00+00:00",
     "id": 159,
     "speaker_bio": "Jeff lives an idyllic life on Bainbridge Island with his daughter, girlfriend, and their five cats. He divides his time between writing iOS applications, teaching public speaking workshops, and speaking at conferences. And yes… they know five cats is outrageous, but they love each and every one of their crazy fur balls.",
@@ -532,7 +532,7 @@ const schedule = [
     "title": "Building a considerate app"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T03:10:00+00:00",
     "id": 160,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -546,7 +546,7 @@ const schedule = [
     "title": "Break ☕️🚻💬"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T03:45:00+00:00",
     "id": 161,
     "speaker_bio": "Tamar Nachmany is a senior engineer at Glossier, where she has worked in iOS and across the tech stack, and previously worked on the iOS teams at Tumblr and The New York Times. When she's not writing software she writes fiction. She is very excited to be in Singapore for the first time.",
@@ -560,7 +560,7 @@ const schedule = [
     "title": "Community Engineering"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T04:20:00+00:00",
     "id": 162,
     "speaker_bio": "Vojta is the lead iOS engineer and founder of Industrial Binaries. He spends most of his day giving second chances to legacy codebases no one wants to touch. He started the Prague branch of CocoaHeads, and writes articles about Swift and iOS development at VojtaStavik.com.",
@@ -574,7 +574,7 @@ const schedule = [
     "title": "Testing SwiftUI and Combine: The State of the Art"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T04:25:00+00:00",
     "id": 163,
     "speaker_bio": "Damian started his career as an iOS developer working on various media and entertainment applications. After moving to Belgium, he joined Guardsquare as an R&D engineer. He works on iXGuard, Guardsquare's mobile security solution for iOS applications.",
@@ -588,7 +588,7 @@ const schedule = [
     "title": "Protecting in-app purchases from piracy through tweaks ⚡️"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T04:30:00+00:00",
     "id": 164,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -602,7 +602,7 @@ const schedule = [
     "title": "Make history 🤳🏼"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T06:00:00+00:00",
     "id": 165,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -616,7 +616,7 @@ const schedule = [
     "title": "Grab a 🍱 and 💬 with fellow coders"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T06:10:00+00:00",
     "id": 166,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -630,7 +630,7 @@ const schedule = [
     "title": "Singapore Trivia and Facts 🇸🇬"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T06:20:00+00:00",
     "id": 167,
     "speaker_bio": "Ritesh Gupta is a Mobile Engineering Manager at Fueled, working remotely from somewhere in India (currently Bangalore). He has been developing iOS applications since 2013 and occasionally delves into Kotlin. He enjoys reactive programming and also writes about it on his personal blog riteshhh.com. He also had the honor of writing one complete issue (295th) of iOS dev weekly & has given multiple talks in various meetups/conferences. When he is not coding, you can find him exploring street food or food markets.",
@@ -644,7 +644,7 @@ const schedule = [
     "title": "Declarative Networking with Combine"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T06:55:00+00:00",
     "id": 168,
     "speaker_bio": "Meng To is the author of Design+Code. Meng started off his career as a self-taught designer from Montreal and eventually traveled around the world for 2 years as his US VISA was denied. During his travels, he wrote a book which now has 35,000 readers.",
@@ -658,7 +658,7 @@ const schedule = [
     "title": "Elevating your design with SwiftUI"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T07:30:00+00:00",
     "id": 169,
     "speaker_bio": "Cocos2D-ObjC lead developer, creator of world’s first pure Swift Android game engine, leading developments of two apps full of AI and CV with over 100M downloads at Prisma AI.",
@@ -672,7 +672,7 @@ const schedule = [
     "title": "Explain me Metal like I'm 5"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T08:00:00+00:00",
     "id": 170,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -686,7 +686,7 @@ const schedule = [
     "title": "Break ☕️🚻💬"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T08:35:00+00:00",
     "id": 171,
     "speaker_bio": "Vincent is a French iOS software engineer. He works for Worldline, in Lyon.",
@@ -700,7 +700,7 @@ const schedule = [
     "title": "Property Wrappers or How Swift decided to become Java"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T09:10:00+00:00",
     "id": 172,
     "speaker_bio": "Tim is a Swift developer from Manchester, UK. He's the server-side Swift team lead at raywenderlich.com and has written the unofficial-official book on Vapor with the founders of the framework. He founded Broken Hands a few years ago delivers talks and workshops on Vapor and server-side Swift around the world. He also co-organises the ServerSide.swift conference - the world’s first and only conference focused on server-side Swift.",
@@ -714,7 +714,7 @@ const schedule = [
     "title": "Full stack development with Swift and Vapor"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T09:20:00+00:00",
     "id": 173,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
@@ -728,7 +728,7 @@ const schedule = [
     "title": "Closing address"
   },
   {
-    "activity": "iosconfsg20.day2",
+    "activity": "iosconfsg21.day2",
     "end_at": "2020-01-18T14:30:00+00:00",
     "id": 174,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
