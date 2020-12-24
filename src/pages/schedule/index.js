@@ -7,7 +7,7 @@ import { ScheduleData } from "~data"
 // console.log('Schedule 18th Jan', Schedule18)
 // const Schedule19 = ScheduleData.filter(event => event.activity === "iosconfsg21.workshop2")
 
-// const Conference21 = ScheduleData.filter(event => event.activity === "iosconfsg21.day1")
+const Conference21 = ScheduleData.filter(event => event.activity === "iosconfsg21.day1")
 
 // const Conference22 = ScheduleData.filter(event => event.activity === "iosconfsg21.day2")
 
@@ -22,7 +22,7 @@ function SchedulePage () {
       </section>
       <section className="w-full px-4 mb-15">
         <div className="flex flex-col max-w-4xl lg:mx-auto justify-center">
-          <ScheduleTable schedule={ScheduleData} />
+          <ScheduleTable schedule={Conference21} />
         </div>
       </section>
     </Layout>

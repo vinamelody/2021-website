@@ -7,27 +7,40 @@ import { DateTime } from 'luxon'
 const localTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone
 const SG_TIMEZONE = 'Asia/Singapore'
 
-function formatDate (stringDate) {
+function formatDate (stringDate, timezone) {
   // console.log('localTimezone', localTimezone)
   // console.log('currentTimezone', currentTimezone)
   // const t = DateTime.local()
   // console.log('t.locale', t.locale)
-  const dt = DateTime.fromISO(stringDate, { zone: localTimezone })
-  return dt.toLocaleString(DateTime.TIME_SIMPLE)
-  // if (timezone) {
-  //   const rezoned = dt.setZone(timezone)
-  //   return rezoned.toLocaleString(DateTime.TIME_SIMPLE)
-  // } else {
-  //   return dt.toLocaleString(DateTime.TIME_SIMPLE)
-  // }
+  if (timezone) {
+    const rezoned = DateTime.fromISO(stringDate, { zone: timezone })
+    return rezoned.toLocaleString(DateTime.TIME_SIMPLE)
+  } else {
+    const dt = DateTime.fromISO(stringDate, { zone: localTimezone })
+    return dt.toLocaleString(DateTime.TIME_SIMPLE)
+  }
+}
 
+function rezoneSchedule (schedule, timezone) {
+  const rezoned = schedule.map(item => {
+    return {
+      ...item,
+      start_at: formatDate(item.start_at, timezone),
+      end_at: formatDate(item.end_at, timezone)
+    }
+  })
+  console.log('rezoned Schedule', rezoned)
+  return rezoned
 }
 
 function ScheduleTable (props) {
   const { schedule } = props
+  const sgSchedule = rezoneSchedule(schedule, SG_TIMEZONE)
+
   const [currentTab, setCurrentTab] = useState()
 
   const [currentTimezone, setCurrentTimezone] = useState(localTimezone)
+  const [currentSchedule, setCurrentSchedule] = useState(rezoneSchedule(schedule, currentTimezone))
 
   const selectedTab = (tab) => {
     setCurrentTab(tab)
@@ -36,14 +49,21 @@ function ScheduleTable (props) {
 
   const rerenderInSgTime = () => {
     setCurrentTimezone(SG_TIMEZONE)
+    setCurrentSchedule(sgSchedule)
   }
   const rerenderInLocalTime = () => {
     setCurrentTimezone(localTimezone)
+    const zonedSchedule = rezoneSchedule(schedule, localTimezone)
+    setCurrentSchedule(zonedSchedule)
   }
+
+  console.log('rerender')
 
   return (
     <>
       <Tabs defaultSelected={'22 Jan'} currentTab={selectedTab}>
+        <Tabs.Tab labelKey='18 Jan'>18 January</Tabs.Tab>
+        <Tabs.Tab labelKey='19 Jan'>19 January</Tabs.Tab>
         <Tabs.Tab labelKey='21 Jan'>21 January</Tabs.Tab>
         <Tabs.Tab labelKey='22 Jan'>22 January</Tabs.Tab>
       </Tabs>
@@ -60,11 +80,11 @@ function ScheduleTable (props) {
         <table className="min-w-full divide-ydivide-gray-200">
           <tbody className="bg-white divide-y divide-x divide-gray-200">
             {
-              schedule.map((talk, index) => {
+              currentSchedule.map((talk, index) => {
                 if (talk.speaker_name === "Organiser") {
                   return (
                     <tr key={index}>
-                      <td className="w-1/5 px-6 py-3 whitespace-nowrap">{formatDate(talk.start_at)} - {formatDate(talk.end_at)}</td>
+                      <td className="w-1/4 px-6 py-3 whitespace-nowrap">{talk.start_at} - {talk.end_at}</td>
                       <td className="w-1/3 px-6 py-3 whitespace-nowrap">{talk.title}</td>
                       <td></td>
                     </tr>
