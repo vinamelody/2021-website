@@ -42,7 +42,7 @@ function Tabs (props) {
         </select>
       </div>
       <div className="hidden sm:block">
-        <nav className="flex">
+        <nav className="flex justify-center mb-8">
           {children}
         </nav>
       </div>
@@ -62,7 +62,7 @@ Tab.propTypes = {
   labelKey: PropTypes.string
 }
 
-const defaultClass = "px-3 py-2 font-medium text-sm leading-5 rounded-md focus:outline-none focus:text-indigo-600 focus:bg-indigo-50"
+const defaultClass = "px-3 py-2 mr-2 font-medium text-xl leading-5 rounded-md focus:outline-none focus:text-orange-600 focus:bg-orange-50"
 
 function Tab (props) {
   const { children, labelKey } = props
@@ -75,7 +75,7 @@ function Tab (props) {
 
   const itemClass = () => {
     if (selected === labelKey) {
-      return defaultClass + " text-indigo-700 bg-indigo-100"
+      return defaultClass + " text-orange-700 bg-orange-100"
     } else {
       return defaultClass + " text-gray-600 hover:text-gray-700"
     }

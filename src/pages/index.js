@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import workshopImage from "../images/iosconfsg-workshop.jpg"
-import confImage from "../images/iosconf-team.jpeg"
-import sponsorDeck from "../downloads/sponsors-deck.pdf";
+
+import { ScheduleSection } from "~components"
+
 import {
   BrowserView,
   MobileView
@@ -14,6 +14,9 @@ import { Transition } from "@headlessui/react";
 import { Helmet } from "react-helmet"
 import { SpeakersData, TrainersData } from "~data"
 
+import workshopImage from "../images/iosconfsg-workshop.jpg"
+import confImage from "../images/iosconf-team.jpeg"
+import sponsorDeck from "../downloads/sponsors-deck.pdf";
 import logoOozou from "../images/logo-oozu.svg"
 import logoGuardsquare from "../images/logo-guardsquare.jpg"
 import logoSeagroup from "../images/logo-seagroup.png"
@@ -48,7 +51,6 @@ function IndexPage () {
             <a href="#ticket" className="bg-orange-500 w-1/3 text-center hover:bg-orange-600 text-white mt-2 px-4 py-2 border-gray-400 rounded shadow">Buy Tickets</a>
           </div>
         </BrowserView>
-
         <MobileView>
           <div className="flex flex-col max-w-4xl pl-4 py-6">
             <h1 className="text-3xl text-orange-500">iOS Conf SG - 2021</h1>
@@ -185,6 +187,16 @@ function IndexPage () {
               A workshop on <strong>Combine by Daniel Steinberg</strong> on Monday, 18 Jan 2021, 9 AM - 2 PM SGT. And <strong>Modern Swift Development</strong> by Vincent Pradeilles on Tuesday, 19 Jan 2021, 1 PM - 6 PM SGT.
               </p>
           </div>
+        </div>
+      </section>
+      <section className="w-full py-24">
+        <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8">
+          <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
+            Schedule
+          </h2>
+        </div>
+        <div className="flex flex-col max-w-4xl lg:mx-auto justify-center">
+          <ScheduleSection />
         </div>
       </section>
     </Layout >
