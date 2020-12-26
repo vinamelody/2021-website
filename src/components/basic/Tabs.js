@@ -86,7 +86,7 @@ function Tab (props) {
   } : {}
 
   return (
-    <a href="#" className={itemClass()} onClick={handleChange} {...attributes}>
+    <a className={itemClass()} onClick={handleChange} {...attributes}>
       {children}
     </a>
   )

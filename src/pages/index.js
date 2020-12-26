@@ -81,7 +81,7 @@ function IndexPage () {
           </div>
         </div>
       </section>
-      <section className="w-full text-center py-24 bg-gray-100">
+      <section id="speakers" className="w-full text-center py-24 bg-gray-100">
         <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
           Speakers
         </h2>
@@ -118,7 +118,7 @@ function IndexPage () {
           <SpeakerBioModal speaker={selectedSpeaker} handleClose={handleCloseBio} />
         </Transition>
       </section>
-      <section className="w-full py-24">
+      <section id="sponsors" className="w-full py-24">
         <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8">
           <h2 className="w-full md:w-1/3 my-auto text-3xl text-orange-600 text-center md:text-left mb-8">
             Gold Sponsors
@@ -189,7 +189,7 @@ function IndexPage () {
           </div>
         </div>
       </section>
-      <section className="w-full py-24">
+      <section id="schedule" className="w-full py-24">
         <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8">
           <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
             Schedule
