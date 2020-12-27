@@ -32,8 +32,8 @@ function Tabs (props) {
 
   return (
     <TabsContext.Provider value={value}>
-      <div className="sm:hidden">
-        <select name="conferenceDay" aria-label="Selected tab" className="form-select block-w-full" value={selected} onChange={selectHandler}>
+      <div className="sm:hidden mx-4 sm:mx-0">
+        <select name="conferenceDay" aria-label="Selected tab" className="form-select w-full" value={selected} onChange={selectHandler}>
           {
             children.map(option => {
               return (<option key={option.props.labelKey} value={option.props.labelKey}>{option.props.children}</option>)
