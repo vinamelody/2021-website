@@ -1,16 +1,15 @@
 import React from "react"
 import Layout from "~components/layout"
-import { PageTitleSection } from "~components"
+import { PageTitleSection, ScheduleSection } from "~components"
+
 
 function SchedulePage () {
-
-
   return (
     <Layout>
       <PageTitleSection title="Schedule" />
-      <section className="w-full">
-        <div className="w-full text-center">
-          <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">Conference</h2>
+      <section className="w-full px-4 my-15">
+        <div className="flex flex-col max-w-4xl lg:mx-auto justify-center">
+          <ScheduleSection />
         </div>
       </section>
     </Layout>

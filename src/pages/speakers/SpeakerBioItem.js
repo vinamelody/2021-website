@@ -19,11 +19,18 @@ function SpeakerBioItem (props) {
           <div className="space-y-2">
             <div className="flex-col justify-center text-lg leading-6 font-medium space-y-1">
               <h4 className="text-center">{speaker.name}</h4>
-              <p className="text-orange-600 text-center"><a href={speaker.companyUrl} target="_blank" rel="noopener noreferrer">{speaker.company}</a></p>
+              <p className="text-orange-600 text-center">
+                <a href={speaker.companyUrl} target="_blank" rel="noopener noreferrer">{speaker.company}</a>
+              </p>
+              {
+                speaker.bio &&
+                <p className="text-sm font-light">{limitString(speaker.bio, 100)}</p>
+              }
               <div className="flex justify-center">
                 {hasTwitter && <Link to={`https://www.twitter.com/${speaker.twitter}`}><FontAwesomeIcon size="1x" icon={faTwitter} /></Link>}
                 {hasLinkedIn && <Link className="ml-1" to={`https://www.linkedin.com/${speaker.linkedin}`}><FontAwesomeIcon size="1x" icon={faLinkedin} /></Link>}
               </div>
+
             </div>
           </div>
         </>
@@ -39,9 +46,19 @@ SpeakerBioItem.propTypes = {
     companyUrl: PropTypes.string,
     company: PropTypes.string,
     twitter: PropTypes.string,
-    linkedin: PropTypes.string
+    linkedin: PropTypes.string,
+    bio: PropTypes.string,
+    talkTitle: PropTypes.string,
   }),
   handleClick: PropTypes.func.isRequired
 }
 
 export default SpeakerBioItem
+
+function limitString (text, maxLength) {
+  if (text.length > maxLength - 3) {
+    return text.substring(0, maxLength).trimEnd() + "..."
+  } else {
+    return text
+  }
+}
