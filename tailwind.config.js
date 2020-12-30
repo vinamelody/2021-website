@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'hero': "url('../images/iosconfsg-header.jpg')"
-      })
+      }),
+      tableLayout: ['hover', 'focus']
     }
   },
   variants: {},

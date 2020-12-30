@@ -12,9 +12,9 @@ function Footer () {
             <section className="bg-orange-600">
                 <div className="max-w-4xl mx-auto text-white text-left text-center">
                     <ul className="list-none my-4">
-                        <li className="inline-block mr-4"><Link className="text-white" to="https://www.facebook.com/iosconfsg/"><FontAwesomeIcon size="2x" icon={faFacebookF} /></Link></li>
-                        <li className="inline-block mr-4"><Link className="text-white" to="https://www.twitter.com/iosconfsg/"><FontAwesomeIcon size="2x" icon={faTwitter} /></Link></li>
-                        <li className="inline-block mr-4"><Link className="text-white" to="https://launchpass.com/iosconfsg"><FontAwesomeIcon size="2x" icon={faSlackHash} /></Link></li>
+                        <li className="inline-block mr-4"><a className="text-white" href="https://www.facebook.com/iosconfsg/"><FontAwesomeIcon size="2x" icon={faFacebookF} /></a></li>
+                        <li className="inline-block mr-4"><a className="text-white" href="https://www.twitter.com/iosconfsg/"><FontAwesomeIcon size="2x" icon={faTwitter} /></a></li>
+                        <li className="inline-block mr-4"><a className="text-white" href="https://launchpass.com/iosconfsg"><FontAwesomeIcon size="2x" icon={faSlackHash} /></a></li>
                     </ul>
                 </div>
             </section>
@@ -23,8 +23,8 @@ function Footer () {
                     <ul className="list-none text-sm text-white md:mx-auto p-4 md:px-8">
                         <li className="inline-block mr-4 mb-2"><Link className="underline" to='/coc'>Code of Conduct</Link></li>
                         <li className="inline-block mr-4 mb-2"><a className="underline" href='mailto:subh@iosconf.sg'>Contact: subh@iosconf.sg</a></li>
-                        <li className="inline-block mr-4 mb-2"><Link className="underline" to='https://www.meetup.com/Singapore-iOS-Dev-Scout-Meetup/'>iOS Dev Scout</Link></li>
-                        <li className="inline-block mr-4 mb-2"><Link className="underline" to='https://cu.sg/'>CU Society</Link></li>
+                        <li className="inline-block mr-4 mb-2"><a className="underline" href='https://www.meetup.com/Singapore-iOS-Dev-Scout-Meetup/'>iOS Dev Scout</a></li>
+                        <li className="inline-block mr-4 mb-2"><a className="underline" href='https://cu.sg/'>CU Society</a></li>
                         <li className="inline-block mr-4 mb-2"><Link className="underline" to='/faq'>Frequently Asked Questions</Link></li>
                     </ul>
                 </div>
