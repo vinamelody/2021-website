@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import classname from "classnames"
 
 function ScheduleTable (props) {
-  const { schedule, tab } = props
+  const { schedule, tab, showSpeakerBioHandler } = props
 
   const classnameFor = (index) => {
     return classname('hover:bg-orange-100', {
@@ -32,21 +32,28 @@ function ScheduleTable (props) {
                     <td className="w-1/5 px-1 sm:px-6 py-3 whitespace-nowrap align-top">
                       <div className="min-w-0 flex flex-col sm:flex-row items-center">
                         <div className="flex-shrink-0">
-                          <img className="h-16 w-16 rounded-full" src={`../speakers/${talk.speaker_image}.jpg`} />
+                          <img className="h-16 w-16 rounded-full" src={`../speakers/${talk.speaker_image}.jpg`} onClick={() => showSpeakerBioHandler(talk.speaker_name)} />
                         </div>
                         <div className="min-w-0 flex-1 flex flex-col items-left px-1 sm:px-4">
-                          <h3 className="font-medium text-orange-600 my-0 underline">{talk.speaker_name}</h3>
+                          <button className="font-medium text-left text-orange-600 my-0 underline" onClick={() => showSpeakerBioHandler(talk.speaker_name)}>
+                            {talk.speaker_name}
+                          </button>
                           <p className="text-sm text-gray-600">{talk.speaker_company}</p>
                         </div>
                       </div>
                       <div className="min-w-0 flex flex-col sm:flex-row items-center">
-                          <div className="flex-shrink-0">
-                            <img className="h-16 w-16 rounded-full" src={`../speakers/${talk.speaker2_image}.jpg`} />
-                          </div>
-                          <div className="min-w-0 flex-1 flex flex-col items-left px-1 sm:px-4">
-                            <h3 className="font-medium text-orange-600 my-0 underline">{talk.speaker2_name}</h3>
-                            <p className="text-sm text-gray-600">{talk.speaker2_company}</p>
-                          </div>
+                        <div className="flex-shrink-0">
+                          <img className="h-16 w-16 rounded-full" src={`../speakers/${talk.speaker2_image}.jpg`} onClick={() => showSpeakerBioHandler(talk.speaker2_name)} />
+                        </div>
+                        <div className="min-w-0 flex-1 flex flex-col items-left px-1 sm:px-4">
+                          <button className="font-medium text-left text-orange-600 my-0 underline" onClick={() => showSpeakerBioHandler(talk.speaker2_name)}>
+                            {talk.speaker2_name}
+                          </button>
+                          {
+
+                          }
+                          <p className="text-sm text-gray-600">{talk.speaker2_company}</p>
+                        </div>
                       </div>
                     </td>
                     <td className="w-1/3 px-1 sm:px-6 py-3 whitespace-nowrap align-top">
@@ -64,10 +71,12 @@ function ScheduleTable (props) {
                     <td className="w-1/5 px-1 sm:px-6 py-3 whitespace-nowrap align-top">
                       <div className="min-w-0 flex flex-col sm:flex-row items-center">
                         <div className="flex-shrink-0">
-                          <img className="h-16 w-16 rounded-full" src={`../speakers/${talk.speaker_image}.jpg`} />
+                          <img className="h-16 w-16 rounded-full" src={`../speakers/${talk.speaker_image}.jpg`} onClick={() => showSpeakerBioHandler(talk.speaker_name)} />
                         </div>
                         <div className="min-w-0 flex-1 flex flex-col items-left px-1 sm:px-4">
-                          <h3 className="font-medium text-orange-600 my-0 underline">{talk.speaker_name}</h3>
+                          <button className="font-medium text-left text-orange-600 my-0 underline" onClick={() => showSpeakerBioHandler(talk.speaker_name)}>
+                            {talk.speaker_name}
+                          </button>
                           <p className="text-sm text-gray-600">{talk.speaker_company}</p>
                         </div>
                       </div>
@@ -80,7 +89,7 @@ function ScheduleTable (props) {
                     </td>
                   </tr>
                 )
-              }              
+              }
             }
           })
         }
@@ -91,7 +100,8 @@ function ScheduleTable (props) {
 
 ScheduleTable.propTypes = {
   tab: PropTypes.string,
-  schedule: PropTypes.arrayOf(PropTypes.object)
+  schedule: PropTypes.arrayOf(PropTypes.object),
+  showSpeakerBioHandler: PropTypes.func
 }
 
 export default ScheduleTable
