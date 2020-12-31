@@ -61,7 +61,7 @@ function selectScheduleForTab (currentTab, timezone) {
   return schedule[location].iosconfsg21[currentTab]
 }
 
-function ScheduleSection () {
+function ScheduleSection (props) {
   const [currentTab, setCurrentTab] = useState('day1')
 
   const [currentTimezone, setCurrentTimezone] = useState(localTimezone)
@@ -97,7 +97,7 @@ function ScheduleSection () {
         }
       </p>
       <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-        <ScheduleTable schedule={localSchedule} tab={currentTab} />
+        <ScheduleTable schedule={localSchedule} tab={currentTab} {...props} />
       </div>
       <p className="text-sm mx-4 sm:mx-0">Schedule may change without prior notice</p>
     </>
