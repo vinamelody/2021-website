@@ -53,7 +53,7 @@ const schedule = [
     "speaker_twitter": "iosconfsg",
     "talk_description": "15 minutes break",
     "talk_type": "shortbreak",
-    "title": "Break ☕️🚻💬"
+    "title": "Break ☕ 🚻 💬"
   },
   {
     "activity": "iosconfsg21.workshop1",
@@ -123,7 +123,7 @@ const schedule = [
     "speaker_twitter": "iosconfsg",
     "talk_description": "15 minutes break",
     "talk_type": "shortbreak",
-    "title": "Break ☕️🚻💬"
+    "title": "Break ☕ 🚻 💬"
   },
   {
     "activity": "iosconfsg21.workshop2",
@@ -235,7 +235,7 @@ const schedule = [
     "speaker_twitter": "iosconfsg",
     "talk_description": "10 minutes break",
     "talk_type": "shortbreak",
-    "title": "Short Break ☕️🚻💬"
+    "title": "Short Break ☕ 🚻 💬"
   },
   {
     "activity": "iosconfsg21.day1",
@@ -389,7 +389,7 @@ const schedule = [
     "speaker_twitter": "iosconfsg",
     "talk_description": "",
     "talk_type": "shortbreak",
-    "title": "Closing with Games 🎮👾🀄️"
+    "title": "Closing with Games 🎮 👾 🀄️"
   },
 
   {
@@ -488,7 +488,7 @@ const schedule = [
     "speaker_twitter": "iosconfsg",
     "talk_description": "10 minutes break",
     "talk_type": "shortbreak",
-    "title": "Short Break ☕️🚻💬"
+    "title": "Short Break ☕️ 🚻 💬"
   },
   {
     "activity": "iosconfsg21.day2",
@@ -632,7 +632,7 @@ const schedule = [
     "speaker_twitter": "iosconfsg",
     "talk_description": "",
     "talk_type": "shortbreak",
-    "title": "Closing + Virtual After-party 🍹🍻🧉"
+    "title": "Closing + Virtual After-party 🍹 🍻 🧉"
   }
 ]
 
