@@ -63,7 +63,7 @@ const speakers = [
     "companyUrl": "https://www.sketch.com",
     "twitter": "arepty",
     "linkedin": "",
-    "bio": "Alexander is a beteran software engineer from Germany, specialises in creating awesome apps for macOS, iOS, tvOS and watchOS using Swift, Objective-C and all kinds of native Apple frameworks. His work has been featured in Apple TV commercials and on Apple WWDC banners. He has also worked on an Apple Design Award winning app."
+    "bio": "Alexander is a veteran software engineer from Germany, specialises in creating awesome apps for macOS, iOS, tvOS and watchOS using Swift, Objective-C and all kinds of native Apple frameworks. His work has been featured in Apple TV commercials and on Apple WWDC banners. He has also worked on an Apple Design Award winning app."
   },
   {
     "name": "Madushan Gamage",
@@ -135,7 +135,7 @@ const speakers = [
     "companyUrl": "https://www.spdigital.io",
     "twitter": "",
     "linkedin": "in/kenneth-poon-84217019",
-    "bio": "Kenneth works as a Principal Software Engineer at SPDigital. He is passionate about TDD and BDD. He likes to bring agile software practices into agile development space. He is also a prominent speaker at iOS Dev Scout, especially on iOS topics like Testing and IPA Code Injection. He enjoys running and playing the piano while not thinking about failed tests."
+    "bio": "Kenneth works as a Principal Software Engineer at SPDigital. He is passionate about TDD and BDD. He likes to bring agile software practices into iOS development space. He is also a prominent speaker at iOS Dev Scout, especially on iOS topics like Testing and IPA Code Injection. He enjoys running and playing the piano while not thinking about failed tests."
   },
 ]
 

@@ -439,7 +439,7 @@ const schedule = [
     "start_at": "2021-01-21T05:00:00+00:00",
     "end_at": "2021-01-21T05:35:00+00:00",
     "id": 31,
-    "speaker_bio": "Kenneth works as a Principal Software Engineer at SPDigital. He is passionate about TDD and BDD. He likes to bring agile software practices into agile development space. He is also a prominent speaker at iOS Dev Scout, especially on iOS topics like Testing and IPA Code Injection. He enjoys running and playing the piano while not thinking about failed tests.",
+    "speaker_bio": "Kenneth works as a Principal Software Engineer at SPDigital. He is passionate about TDD and BDD. He likes to bring agile software practices into iOS development space. He is also a prominent speaker at iOS Dev Scout, especially on iOS topics like Testing and IPA Code Injection. He enjoys running and playing the piano while not thinking about failed tests.",
     "speaker_company": "SPdigital",
     "speaker_image": "kenneth",
     "speaker_name": "Kenneth Poon",
@@ -541,7 +541,7 @@ const schedule = [
     "start_at": "2021-01-21T07:50:00+00:00",
     "end_at": "2021-01-21T08:25:00+00:00",
     "id": 38,
-    "speaker_bio": "Alexander is a beteran software engineer from Germany, specialises in creating awesome apps for macOS, iOS, tvOS and watchOS using Swift, Objective-C and all kinds of native Apple frameworks. His work has been featured in Apple TV commercials and on Apple WWDC banners. He has also worked on an Apple Design Award winning app.",
+    "speaker_bio": "Alexander is a veteran software engineer from Germany, specialises in creating awesome apps for macOS, iOS, tvOS and watchOS using Swift, Objective-C and all kinds of native Apple frameworks. His work has been featured in Apple TV commercials and on Apple WWDC banners. He has also worked on an Apple Design Award winning app.",
     "speaker_company": "Sketch",
     "speaker_image": "alexander",
     "speaker_name": "Alexander Repty",
@@ -602,9 +602,9 @@ const schedule = [
     "speaker_image": "paul",
     "speaker_name": "Paul Hudson",
     "speaker_twitter": "twostraws",
-    "talk_description": "TBD",
+    "talk_description": "Once the novelty of SwiftUI has passed, you'll soon realize the curse of Massive View Controllers has made it over to SwiftUI in the form of Massive Views. In this hands-on coding session, Paul will walk through five simple tips you can use in your project to make your code easier to read and write, and easier to maintain too.",
     "talk_type": "normalTalk",
-    "title": "TBD"
+    "title": "5 Steps to Better SwiftUI Views"
   },
   {
     "activity": "iosconfsg21.day2",
