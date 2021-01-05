@@ -345,9 +345,9 @@ const schedule = [
     "speaker_image": "Rongyan",
     "speaker_name": "Rongyan (蓝容) Zheng",
     "speaker_twitter": "ZoeZheng_RY",
-    "talk_description": "How to find out root cause for crashes caused by memory access issue",
+    "talk_description": "It is quite a challenge to develop a super App with a huge amount of users. We've encountered crashes caused by invalid memory access from time to time. Although it is a bit hard to trace the source of this kind of crash, we can still get further clues by analyzing sections in crash reports.",
     "talk_type": "normalTalk",
-    "title": "Crashes caused by memory access issue"
+    "title": "Explore invalid memory access"
   },
   {
     "activity": "iosconfsg21.day1",
@@ -444,7 +444,7 @@ const schedule = [
     "speaker_image": "kenneth",
     "speaker_name": "Kenneth Poon",
     "speaker_twitter": "",
-    "talk_description": "XcodeSurgery: Eliminating Recompilation for your iOS Build Variants",
+    "talk_description": "XcodeSurgery is a Swift CLI tool that aims to eliminate unnecessary recompilations when building different app variants. With 4 simple steps, learn how you can employ XcodeSurgery onto your Xcode Projects to significantly reduce time to build multiple app variants in your project.",
     "talk_type": "normalTalk",
     "title": "XcodeSurgery: Eliminating Recompilation for your iOS Build Variants"
   },
