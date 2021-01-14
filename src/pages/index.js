@@ -30,6 +30,16 @@ function IndexPage () {
     setSelectedSpeaker(speaker)
     setShowBio(!showBio)
   }
+
+  const handleShowSpeaker = (name) => {
+    const person = SpeakersData.filter(function (speaker) {
+      return speaker.name === name
+    })
+    if (person && person.length > 0) {
+      setSelectedSpeaker(person[0])
+      setShowBio(true)
+    }
+  }
   const handleCloseBio = () => setShowBio(false)
 
   return (
@@ -196,7 +206,7 @@ function IndexPage () {
           </h2>
         </div>
         <div className="flex flex-col max-w-4xl lg:mx-auto justify-center">
-          <ScheduleSection />
+          <ScheduleSection showSpeakerBioHandler={handleShowSpeaker} />
         </div>
       </section>
     </Layout >
