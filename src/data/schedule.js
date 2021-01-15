@@ -291,7 +291,7 @@ const schedule = [
     "speaker_twitter": "iosconfsg",
     "talk_description": "Sponsor hopping game",
     "talk_type": "shortbreak",
-    "title": "The Sherolock in You 🕵️‍♂️🕵️‍♀️"
+    "title": "The Sherlock in You 🕵️‍♂️🕵️‍♀️"
   },
   {
     "activity": "iosconfsg21.day1",
@@ -562,7 +562,7 @@ const schedule = [
     "speaker_twitter": "iosconfsg",
     "talk_description": "Sponsor hopping game",
     "talk_type": "shortbreak",
-    "title": "The Sherolock in You 🕵️‍♂️🕵️‍♀️"
+    "title": "The Sherlock in You 🕵️‍♂️🕵️‍♀️"
   },
   {
     "activity": "iosconfsg21.day2",
