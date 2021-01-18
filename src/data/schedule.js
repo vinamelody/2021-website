@@ -380,16 +380,16 @@ const schedule = [
   {
     "activity": "iosconfsg21.day1",
     "start_at": "2021-01-20T06:30:00+00:00",
-    "end_at": "2021-01-20T06:40:00+00:00",
+    "end_at": "2021-01-20T07:30:00+00:00",
     "id": 27,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
     "speaker_company": "iOSConfSG",
     "speaker_image": "organiser",
     "speaker_name": "Organiser",
     "speaker_twitter": "iosconfsg",
-    "talk_description": "",
+    "talk_description": "Stay tuned with the announcement in the morning!",
     "talk_type": "shortbreak",
-    "title": "Closing with Games 🎮 👾 🀄️"
+    "title": "Closing with Games 🕵🏼‍♂️ 🕵🏼‍♀️ 🖱 with 🎁 "
   },
 
   {
