@@ -296,7 +296,7 @@ const schedule = [
   {
     "activity": "iosconfsg21.day1",
     "start_at": "2021-01-20T04:05:00+00:00",
-    "end_at": "2021-01-20T04:50:00+00:00",
+    "end_at": "2021-01-20T04:55:00+00:00",
     "id": 22,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
     "speaker_company": "iOSConfSG",
@@ -305,12 +305,12 @@ const schedule = [
     "speaker_twitter": "iosconfsg",
     "talk_description": "",
     "talk_type": "shortbreak",
-    "title": "Grab a Bite 🍽 (45 Mins Break)"
+    "title": "Grab a Bite 🍽 (50 Mins Break)"
   },
   {
     "activity": "iosconfsg21.day1",
-    "start_at": "2021-01-20T04:50:00+00:00",
-    "end_at": "2021-01-20T05:00:00+00:00",
+    "start_at": "2021-01-20T04:55:00+00:00",
+    "end_at": "2021-01-20T05:05:00+00:00",
     "id": 23,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
     "speaker_company": "iOSConfSG",
@@ -319,26 +319,26 @@ const schedule = [
     "speaker_twitter": "iosconfsg",
     "talk_description": "Quiz and Games",
     "talk_type": "registration",
-    "title": "Quiz - compete for the top 3 spot! 🏅"
-  },
-  {
-    "activity": "iosconfsg21.day1",
-    "start_at": "2021-01-20T05:00:00+00:00",
-    "end_at": "2021-01-20T05:10:00+00:00",
-    "id": 24,
-    "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
-    "speaker_company": "iOSConfSG",
-    "speaker_image": "organiser",
-    "speaker_name": "Organiser",
-    "speaker_twitter": "iosconfsg",
-    "talk_description": "",
-    "talk_type": "registration",
     "title": "Energy Boost ⚡️"
   },
   {
     "activity": "iosconfsg21.day1",
-    "start_at": "2021-01-20T05:10:00+00:00",
-    "end_at": "2021-01-20T05:45:00+00:00",
+    "start_at": "2021-01-20T05:05:00+00:00",
+    "end_at": "2021-01-20T05:15:00+00:00",
+    "id": 24,
+    "speaker_bio": "Pavel Tarasevich is a senior iOS developer at Foodpanda, here in Singapore. He has 9+ years of iOS experience. Pavel is passionate about architectures and augmented reality.",
+    "speaker_company": "foodpanda",
+    "speaker_image": "pavel",
+    "speaker_name": "Pavel Tarasevich",
+    "speaker_twitter": "",
+    "talk_description": "Live coding session where code will be enhanced with best VIPER practices.",
+    "talk_type": "lightningTalk",
+    "title": "VIPER architecture ⚡️"
+  },
+  {
+    "activity": "iosconfsg21.day1",
+    "start_at": "2021-01-20T05:15:00+00:00",
+    "end_at": "2021-01-20T05:50:00+00:00",
     "id": 25,
     "speaker_bio": "Rongyan is a mobile developer in Shopee. iOS lover. She likes to make friends on Github. github.com/sueLan",
     "speaker_company": "Shopee",
@@ -351,8 +351,22 @@ const schedule = [
   },
   {
     "activity": "iosconfsg21.day1",
-    "start_at": "2021-01-20T05:45:00+00:00",
-    "end_at": "2021-01-20T06:20:00+00:00",
+    "start_at": "2021-01-20T05:50:00+00:00",
+    "end_at": "2021-01-20T06:00:00+00:00",
+    "id": 251,
+    "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
+    "speaker_company": "iOSConfSG",
+    "speaker_image": "organiser",
+    "speaker_name": "Organiser",
+    "speaker_twitter": "iosconfsg",
+    "talk_description": "10 minutes break",
+    "talk_type": "shortbreak",
+    "title": "Short Break ☕️ 🚻 💬"
+  },
+  {
+    "activity": "iosconfsg21.day1",
+    "start_at": "2021-01-20T06:00:00+00:00",
+    "end_at": "2021-01-20T06:35:00+00:00",
     "id": 26,
     "speaker_bio": "Maciej is a passionate iOS developer that pays much attention to details and code quality. He likes improving things, always looking for better solutions because he's amazed that in the programming world, issues can be solved in 100s of ways. In 2016 he kicked off with his friends the swifting.io blog, where he has been posting his thoughts about various topics.",
     "speaker_company": "Allegro",
@@ -365,8 +379,8 @@ const schedule = [
   },
   {
     "activity": "iosconfsg21.day1",
-    "start_at": "2021-01-20T06:20:00+00:00",
-    "end_at": "2021-01-20T06:30:00+00:00",
+    "start_at": "2021-01-20T06:35:00+00:00",
+    "end_at": "2021-01-20T06:45:00+00:00",
     "id": 38,
     "speaker_bio": "Jason is an iOS developer who is passionate about finding better software architecture and improving his development process so that he can deliver the best UX/UI. He enjoys discussing his approaches and other developers' experiences. Besides his interest in software, he also enjoys reading books about history.",
     "speaker_company": "OOZOU",
@@ -379,8 +393,8 @@ const schedule = [
   },
   {
     "activity": "iosconfsg21.day1",
-    "start_at": "2021-01-20T06:30:00+00:00",
-    "end_at": "2021-01-20T07:30:00+00:00",
+    "start_at": "2021-01-20T06:45:00+00:00",
+    "end_at": "2021-01-20T07:45:00+00:00",
     "id": 27,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
     "speaker_company": "iOSConfSG",
@@ -590,7 +604,7 @@ const schedule = [
     "speaker_twitter": "iosconfsg",
     "talk_description": "",
     "talk_type": "registration",
-    "title": "Energy Boost ⚡️"
+    "title": "Are You Sherlock? - Compete for the top 3 spots 🏅"
   },
   {
     "activity": "iosconfsg21.day2",
