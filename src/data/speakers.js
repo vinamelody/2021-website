@@ -137,6 +137,15 @@ const speakers = [
     "linkedin": "in/kenneth-poon-84217019",
     "bio": "Kenneth works as a Principal Software Engineer at SPDigital. He is passionate about TDD and BDD. He likes to bring agile software practices into iOS development space. He is also a prominent speaker at iOS Dev Scout, especially on iOS topics like Testing and IPA Code Injection. He enjoys running and playing the piano while not thinking about failed tests."
   },
+  {
+    "name": "Pavel Tarasevich",
+    "company": "foodpanda",
+    "imageUrl": "../speakers/pavel.jpg",
+    "companyUrl": "https://www.foodpanda.com",
+    "twitter": "",
+    "linkedin": "in/pavel-tarasevich",
+    "bio": "Pavel Tarasevich is a senior iOS developer at Foodpanda, here in Singapore. He has 9+ years of iOS experience. Pavel is passionate about architectures and augmented reality."
+  },
 ]
 
 export default speakers
